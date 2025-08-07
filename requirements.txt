@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+joblib
+numpy
+pandas
+openmeteo-requests
+requests-cache
+retry-requests
+pydantic
