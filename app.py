@@ -37,7 +37,7 @@ class UserInput(BaseModel):
     lon: float
     kwp: float
 
-@app.post("/fetch")
+@app.post("/predict")
 async def fetch(input : UserInput):
     global hourly_dataframe
 
